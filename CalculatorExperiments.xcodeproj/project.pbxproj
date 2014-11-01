@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */; };
-		0B2646BD1A0519A70012E633 /* MESNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2646BC1A0519A70012E633 /* MESNumberDisplay.m */; };
-		0B2646BF1A0519B60012E633 /* MESNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2646BE1A0519B60012E633 /* MESNumberDisplay.xib */; };
+		0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */; };
+		0B2646C41A051D340012E633 /* MESCalculatorStylenNumberInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */; };
 		0BB993421A03CCE100944AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993411A03CCE100944AA9 /* main.m */; };
 		0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993441A03CCE100944AA9 /* AppDelegate.m */; };
 		0BB993481A03CCE100944AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993471A03CCE100944AA9 /* ViewController.m */; };
@@ -17,9 +17,11 @@
 		0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934C1A03CCE100944AA9 /* Images.xcassets */; };
 		0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */; };
 		0BB9935C1A03CCE200944AA9 /* CalculatorExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */; };
-		E22BA2EA7232DAFFAF5E3001 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BACA8512E4FABAB75830C /* MESNumberPad.m */; };
-		E22BA3493F3F284418519010 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */; };
+		E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA5A617E5B28134C92FEE /* MESNumberPad.m */; };
+		E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */; };
 		E22BA973CA07009ABB48B306 /* MESXibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC5F6B8F18A8B117A9CA /* MESXibLoadedView.m */; };
+		E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */; };
+		E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */; };
 		E85BB8C467C77F3D381A7EC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6F3142A0357CC769C801A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B2646BB1A0519A70012E633 /* MESNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberDisplay.h; sourceTree = "<group>"; };
-		0B2646BC1A0519A70012E633 /* MESNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberDisplay.m; sourceTree = "<group>"; };
-		0B2646BE1A0519B60012E633 /* MESNumberDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESNumberDisplay.xib; sourceTree = "<group>"; };
+		0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESCalculatorStyleNumberInput.h; sourceTree = "<group>"; };
+		0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESCalculatorStyleNumberInput.m; sourceTree = "<group>"; };
+		0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESCalculatorStylenNumberInput.xib; sourceTree = "<group>"; };
 		0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB993401A03CCE100944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB993411A03CCE100944AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,11 +55,14 @@
 		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A951881F1FCEE6149521AF5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorExperimentsTests.xcconfig"; path = "Pods/Pods-CalculatorExperimentsTests.xcconfig"; sourceTree = "<group>"; };
-		E22BA3820AB6C89FD0CEAFE3 /* MESNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberPad.h; sourceTree = "<group>"; };
-		E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
+		E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberDisplay.xib; sourceTree = "<group>"; };
+		E22BA2B94EFDCD9EB29CFB02 /* MESNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberPad.h; sourceTree = "<group>"; };
+		E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberDisplay.m; sourceTree = "<group>"; };
+		E22BA5A617E5B28134C92FEE /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
 		E22BAC5F6B8F18A8B117A9CA /* MESXibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESXibLoadedView.m; sourceTree = "<group>"; };
-		E22BACA8512E4FABAB75830C /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
 		E22BACD91952F3E1480D171F /* MESXibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESXibLoadedView.h; sourceTree = "<group>"; };
+		E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
+		E22BAFEF1866F1B220BE5B97 /* MESNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberDisplay.h; sourceTree = "<group>"; };
 		FDA6F3142A0357CC769C801A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,9 +118,8 @@
 				0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */,
 				0BB9934C1A03CCE100944AA9 /* Images.xcassets */,
 				0BB9933F1A03CCE100944AA9 /* Supporting Files */,
-				E22BADB7C434CA31CE49BE8E /* NumberPad */,
-				E22BA11F1953148C4B459A14 /* NumberDisplay */,
 				E22BA1C00B74FD47B617CF40 /* Utilities */,
+				E22BA2B54C37419ABF599528 /* CalculatorStyleNumberInput */,
 			);
 			path = CalculatorExperiments;
 			sourceTree = "<group>";
@@ -155,16 +159,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E22BA11F1953148C4B459A14 /* NumberDisplay */ = {
-			isa = PBXGroup;
-			children = (
-				0B2646BB1A0519A70012E633 /* MESNumberDisplay.h */,
-				0B2646BC1A0519A70012E633 /* MESNumberDisplay.m */,
-				0B2646BE1A0519B60012E633 /* MESNumberDisplay.xib */,
-			);
-			path = NumberDisplay;
-			sourceTree = "<group>";
-		};
 		E22BA1C00B74FD47B617CF40 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,14 +168,36 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		E22BADB7C434CA31CE49BE8E /* NumberPad */ = {
+		E22BA2B54C37419ABF599528 /* CalculatorStyleNumberInput */ = {
 			isa = PBXGroup;
 			children = (
-				E22BACA8512E4FABAB75830C /* MESNumberPad.m */,
-				E22BA3820AB6C89FD0CEAFE3 /* MESNumberPad.h */,
-				E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */,
+				E22BACB6C01DE842A833F025 /* NumberDisplay */,
+				E22BAC643E04F2687B772D84 /* NumberPad */,
+				0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */,
+				0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */,
+				0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */,
+			);
+			path = CalculatorStyleNumberInput;
+			sourceTree = "<group>";
+		};
+		E22BAC643E04F2687B772D84 /* NumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				E22BA5A617E5B28134C92FEE /* MESNumberPad.m */,
+				E22BA2B94EFDCD9EB29CFB02 /* MESNumberPad.h */,
+				E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */,
 			);
 			path = NumberPad;
+			sourceTree = "<group>";
+		};
+		E22BACB6C01DE842A833F025 /* NumberDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E22BAFEF1866F1B220BE5B97 /* MESNumberDisplay.h */,
+				E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */,
+				E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */,
+			);
+			path = NumberDisplay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +286,10 @@
 			files = (
 				0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */,
 				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
+				0B2646C41A051D340012E633 /* MESCalculatorStylenNumberInput.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
-				0B2646BF1A0519B60012E633 /* MESNumberDisplay.xib in Resources */,
-				E22BA3493F3F284418519010 /* MESNumberPad.xib in Resources */,
+				E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */,
+				E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,11 +371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB993481A03CCE100944AA9 /* ViewController.m in Sources */,
+				0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */,
 				0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */,
 				0BB993421A03CCE100944AA9 /* main.m in Sources */,
-				0B2646BD1A0519A70012E633 /* MESNumberDisplay.m in Sources */,
-				E22BA2EA7232DAFFAF5E3001 /* MESNumberPad.m in Sources */,
 				E22BA973CA07009ABB48B306 /* MESXibLoadedView.m in Sources */,
+				E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */,
+				E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
