@@ -9,4 +9,11 @@
 #import "MESCalculatorStyleNumberInput.h"
 
 @implementation MESCalculatorStyleNumberInput
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+
+    self.number = [NSDecimalNumber zero];
+}
+
 @end

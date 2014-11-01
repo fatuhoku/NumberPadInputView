@@ -10,4 +10,5 @@
 #import "MESXibLoadedView.h"
 
 @interface MESCalculatorStyleNumberInput : MESXibLoadedView
+@property(nonatomic, strong) NSDecimalNumber *number;
 @end
