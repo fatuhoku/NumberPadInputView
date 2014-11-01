@@ -1,0 +1,3 @@
+[submodule "Local/CompositeXibView"]
+	path = Local/CompositeXibView
+	url = https://github.com/fatuhoku/CompositeXibView

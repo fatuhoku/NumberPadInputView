@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HSPXibLoadedView.h"
+#import "HSPCompositeXibView.h"
 
-@interface HSPNumberDisplay : HSPXibLoadedView
+@interface HSPNumberDisplay : HSPCompositeXibView
 @property(nonatomic, copy) NSString *numberString;
 @property(nonatomic, copy) NSString *unit;
 @end
