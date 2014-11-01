@@ -11,4 +11,5 @@
 
 @interface MESNumberDisplay : MESXibLoadedView
 @property(nonatomic, strong) NSDecimalNumber *number;
+@property(nonatomic, strong) NSDecimalNumber *unit;
 @end

@@ -25,6 +25,7 @@
 
     // RAC Bindings
     RAC(self, numberDisplay.number) = RACObserve(self, number);
+    RAC(self, numberDisplay.unit) = RACObserve(self, unit);
 }
 
 @end
