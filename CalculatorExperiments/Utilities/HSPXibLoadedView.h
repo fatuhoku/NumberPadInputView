@@ -10,6 +10,6 @@
 // Lets you position and set up UIViews on XIBs / storyboards and have its view load from a XIB.
 // Works with autolayout constraints on the bounds of the view.
 // The XIB name is given by the class name set in Interface Builder.
-@interface MESXibLoadedView : UIView
+@interface HSPXibLoadedView : UIView
 @property(strong, nonatomic) IBOutlet UIView *view;
 @end

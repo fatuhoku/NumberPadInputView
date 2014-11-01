@@ -19,7 +19,7 @@
 		0BB9935C1A03CCE200944AA9 /* CalculatorExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */; };
 		E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA5A617E5B28134C92FEE /* MESNumberPad.m */; };
 		E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */; };
-		E22BA973CA07009ABB48B306 /* MESXibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC5F6B8F18A8B117A9CA /* MESXibLoadedView.m */; };
+		E22BA973CA07009ABB48B306 /* HSPXibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC5F6B8F18A8B117A9CA /* HSPXibLoadedView.m */; };
 		E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */; };
 		E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */; };
 		E22BAC67EFF1DF96BA29870A /* MESCalculatorStyleNumberInputTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA35AE3D6237B4D17F66E /* MESCalculatorStyleNumberInputTestViewController.m */; };
@@ -61,9 +61,9 @@
 		E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberDisplay.m; sourceTree = "<group>"; };
 		E22BA35AE3D6237B4D17F66E /* MESCalculatorStyleNumberInputTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESCalculatorStyleNumberInputTestViewController.m; sourceTree = "<group>"; };
 		E22BA5A617E5B28134C92FEE /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
-		E22BAC5F6B8F18A8B117A9CA /* MESXibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESXibLoadedView.m; sourceTree = "<group>"; };
+		E22BAC5F6B8F18A8B117A9CA /* HSPXibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPXibLoadedView.m; sourceTree = "<group>"; };
 		E22BAC7CE1371A4CEE2C0196 /* MESCalculatorStyleNumberInputTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESCalculatorStyleNumberInputTestViewController.h; sourceTree = "<group>"; };
-		E22BACD91952F3E1480D171F /* MESXibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESXibLoadedView.h; sourceTree = "<group>"; };
+		E22BACD91952F3E1480D171F /* HSPXibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPXibLoadedView.h; sourceTree = "<group>"; };
 		E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
 		E22BAFEF1866F1B220BE5B97 /* MESNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberDisplay.h; sourceTree = "<group>"; };
 		FDA6F3142A0357CC769C801A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,8 +175,8 @@
 		E22BA1C00B74FD47B617CF40 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E22BACD91952F3E1480D171F /* MESXibLoadedView.h */,
-				E22BAC5F6B8F18A8B117A9CA /* MESXibLoadedView.m */,
+				E22BACD91952F3E1480D171F /* HSPXibLoadedView.h */,
+				E22BAC5F6B8F18A8B117A9CA /* HSPXibLoadedView.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -387,7 +387,7 @@
 				0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */,
 				0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */,
 				0BB993421A03CCE100944AA9 /* main.m in Sources */,
-				E22BA973CA07009ABB48B306 /* MESXibLoadedView.m in Sources */,
+				E22BA973CA07009ABB48B306 /* HSPXibLoadedView.m in Sources */,
 				E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */,
 				E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */,
 				E22BAC67EFF1DF96BA29870A /* MESCalculatorStyleNumberInputTestViewController.m in Sources */,

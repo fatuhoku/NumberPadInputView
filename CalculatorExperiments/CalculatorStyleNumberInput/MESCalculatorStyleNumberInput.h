@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MESXibLoadedView.h"
+#import "HSPXibLoadedView.h"
 
-@interface MESCalculatorStyleNumberInput : MESXibLoadedView
+@interface MESCalculatorStyleNumberInput : HSPXibLoadedView
 @property(nonatomic, strong) NSDecimalNumber *number;
 @property(nonatomic, copy) NSString *unit;
 @end

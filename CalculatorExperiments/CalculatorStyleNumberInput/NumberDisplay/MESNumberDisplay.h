@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MESXibLoadedView.h"
+#import "HSPXibLoadedView.h"
 
-@interface MESNumberDisplay : MESXibLoadedView
+@interface MESNumberDisplay : HSPXibLoadedView
 @property(nonatomic, copy) NSString *numberString;
 @property(nonatomic, copy) NSString *unit;
 @end

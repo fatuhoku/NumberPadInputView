@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MESXibLoadedView.h"
+#import "HSPXibLoadedView.h"
 
 typedef void (^NumberTouchedBlock)(NSUInteger n);
 typedef void (^VoidBlock)();
 
-@interface MESNumberPad : MESXibLoadedView
+@interface MESNumberPad : HSPXibLoadedView
 - (void)setNumberTouchedBlock:(NumberTouchedBlock)numberTouchedBlock clearTouchedBlock:(VoidBlock)clearTouchedBlock decimalPointTouchedBlock:(VoidBlock)decimalPointTouchedBlock;
 @end

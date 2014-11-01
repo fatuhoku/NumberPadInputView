@@ -5,10 +5,10 @@
 
 #import "View+MASAdditions.h"
 #import "MESNumberPad.h"
-#import "MESXibLoadedView.h"
+#import "HSPXibLoadedView.h"
 
 
-@implementation MESXibLoadedView
+@implementation HSPXibLoadedView
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
