@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "MESXibLoadedView.h"
 
-typedef void (^NumberTouchedBlock)(NSDecimalNumber *n);
+typedef void (^NumberTouchedBlock)(NSUInteger n);
 typedef void (^VoidBlock)();
 
 @interface MESNumberPad : MESXibLoadedView
+- (void)setNumberTouchedBlock:(NumberTouchedBlock)numberTouchedBlock clearTouchedBlock:(VoidBlock)clearTouchedBlock decimalPointTouchedBlock:(VoidBlock)decimalPointTouchedBlock;
 @end
