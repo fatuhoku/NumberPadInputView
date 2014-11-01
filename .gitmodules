@@ -1,3 +1,3 @@
-[submodule "Local/CompositeXibView"]
-	path = Local/CompositeXibView
-	url = https://github.com/fatuhoku/CompositeXibView
+[submodule "DevPods/CompositeXibView"]
+	path = DevPods/CompositeXibView
+	url = git@github.com:fatuhoku/CompositeXibView.git
