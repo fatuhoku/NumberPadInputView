@@ -14,14 +14,14 @@ PODS:
 
 DEPENDENCIES:
   - APNumberPad
-  - CompositeXibView (from `Local/CompositeXibView`)
+  - CompositeXibView (from `DevPods/CompositeXibView`)
   - FlatButtons
   - Masonry
   - ReactiveCocoa
 
 EXTERNAL SOURCES:
   CompositeXibView:
-    :path: Local/CompositeXibView
+    :path: DevPods/CompositeXibView
 
 SPEC CHECKSUMS:
   APNumberPad: 944238a3b5013d84df84d25d19b3e024e797daab
