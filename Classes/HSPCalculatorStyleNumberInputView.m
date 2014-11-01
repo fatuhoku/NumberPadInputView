@@ -1,5 +1,5 @@
 //
-//  MESCalculatorStyleNumberInput.m
+//  HSPCalculatorStyleNumberInputView.m
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 01/11/2014.
@@ -8,18 +8,18 @@
 
 #import <ReactiveCocoa/RACEXTScope.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "MESCalculatorStyleNumberInput.h"
-#import "MESNumberDisplay.h"
-#import "MESNumberPad.h"
+#import "HSPCalculatorStyleNumberInputView.h"
+#import "HSPNumberDisplay.h"
+#import "HSPNumberPad.h"
 
-@interface MESCalculatorStyleNumberInput ()
-@property(nonatomic, strong) IBOutlet MESNumberDisplay *numberDisplay;
-@property(nonatomic, strong) IBOutlet MESNumberPad *numberPad;
+@interface HSPCalculatorStyleNumberInputView ()
+@property(nonatomic, strong) IBOutlet HSPNumberDisplay *numberDisplay;
+@property(nonatomic, strong) IBOutlet HSPNumberPad *numberPad;
 
 @property(nonatomic, copy) NSString *string;
 @end
 
-@implementation MESCalculatorStyleNumberInput
+@implementation HSPCalculatorStyleNumberInputView
 
 - (void)awakeFromNib {
     [super awakeFromNib];

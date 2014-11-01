@@ -5,10 +5,10 @@
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "MESCalculatorStyleNumberInputTestViewController.h"
-#import "MESCalculatorStyleNumberInput.h"
+#import "HSPCalculatorStyleNumberInputView.h"
 
 @interface MESCalculatorStyleNumberInputTestViewController ()
-@property(strong, nonatomic) IBOutlet MESCalculatorStyleNumberInput *calculatorStyleNumberInput;
+@property(strong, nonatomic) IBOutlet HSPCalculatorStyleNumberInputView *calculatorStyleNumberInput;
 @property(strong, nonatomic) IBOutlet UITextField *unitField;
 @end
 

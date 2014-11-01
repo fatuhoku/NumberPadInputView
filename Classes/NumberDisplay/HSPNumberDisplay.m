@@ -1,5 +1,5 @@
 //
-//  MESNumberDisplay.m
+//  HSPNumberDisplay.m
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 01/11/2014.
@@ -7,14 +7,14 @@
 //
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "MESNumberDisplay.h"
+#import "HSPNumberDisplay.h"
 
-@interface MESNumberDisplay ()
+@interface HSPNumberDisplay ()
 @property (strong, nonatomic) IBOutlet UILabel *numberLabel;
 @property (strong, nonatomic) IBOutlet UILabel *unitLabel;
 @end
 
-@implementation MESNumberDisplay
+@implementation HSPNumberDisplay
 
 - (void)awakeFromNib {
     [super awakeFromNib];

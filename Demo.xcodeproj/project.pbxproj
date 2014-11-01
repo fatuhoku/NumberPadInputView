@@ -7,41 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */; };
-		0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */; };
-		0B2646C41A051D340012E633 /* MESCalculatorStyleNumberInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */; };
 		0BB993421A03CCE100944AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993411A03CCE100944AA9 /* main.m */; };
 		0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993441A03CCE100944AA9 /* AppDelegate.m */; };
 		0BB993481A03CCE100944AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993471A03CCE100944AA9 /* ViewController.m */; };
 		0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB993491A03CCE100944AA9 /* Main.storyboard */; };
 		0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934C1A03CCE100944AA9 /* Images.xcassets */; };
 		0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */; };
-		0BB9935C1A03CCE200944AA9 /* CalculatorExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */; };
-		E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA5A617E5B28134C92FEE /* MESNumberPad.m */; };
-		E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */; };
+		E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */; };
+		E22BA721CD038A966B696F0D /* HSPCalculatorStyleNumberInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */; };
+		E22BA83616735DD98B82E771 /* HSPNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */; };
 		E22BA973CA07009ABB48B306 /* HSPXibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC5F6B8F18A8B117A9CA /* HSPXibLoadedView.m */; };
-		E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */; };
-		E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */; };
 		E22BAC67EFF1DF96BA29870A /* MESCalculatorStyleNumberInputTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA35AE3D6237B4D17F66E /* MESCalculatorStyleNumberInputTestViewController.m */; };
+		E22BAD5929FEBE6550D25703 /* HSPNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA32138F8608BDBAA18FE /* HSPNumberDisplay.m */; };
+		E22BADC359C7A23DBBE61067 /* HSPNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAF1785C4CF65DFF7E253 /* HSPNumberPad.m */; };
+		E22BAFBF1B289783B178B921 /* HSPCalculatorStyleNumberInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */; };
 		E85BB8C467C77F3D381A7EC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6F3142A0357CC769C801A /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0BB993561A03CCE100944AA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BB993341A03CCE100944AA9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BB9933B1A03CCE100944AA9;
-			remoteInfo = CalculatorExperiments;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESCalculatorStyleNumberInput.h; sourceTree = "<group>"; };
-		0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESCalculatorStyleNumberInput.m; sourceTree = "<group>"; };
-		0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESCalculatorStyleNumberInput.xib; sourceTree = "<group>"; };
-		0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB993401A03CCE100944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB9933C1A03CCE100944AA9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB993401A03CCE100944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		0BB993411A03CCE100944AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BB993431A03CCE100944AA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0BB993441A03CCE100944AA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,22 +35,22 @@
 		0BB9934A1A03CCE100944AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BB9934C1A03CCE100944AA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BB9934F1A03CCE100944AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0BB993551A03CCE100944AA9 /* CalculatorExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB9935A1A03CCE200944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorExperimentsTests.m; sourceTree = "<group>"; };
 		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A951881F1FCEE6149521AF5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorExperimentsTests.xcconfig"; path = "Pods/Pods-CalculatorExperimentsTests.xcconfig"; sourceTree = "<group>"; };
-		E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberDisplay.xib; sourceTree = "<group>"; };
-		E22BA2B94EFDCD9EB29CFB02 /* MESNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberPad.h; sourceTree = "<group>"; };
-		E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberDisplay.m; sourceTree = "<group>"; };
+		49B1B9B1C8EA60D559142BDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D63F199E70E9145FAF11E520 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E22BA20B3B4A10E691BBC973 /* HSPCalculatorStyleNumberInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPCalculatorStyleNumberInputView.h; sourceTree = "<group>"; };
+		E22BA32138F8608BDBAA18FE /* HSPNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberDisplay.m; sourceTree = "<group>"; };
 		E22BA35AE3D6237B4D17F66E /* MESCalculatorStyleNumberInputTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESCalculatorStyleNumberInputTestViewController.m; sourceTree = "<group>"; };
-		E22BA5A617E5B28134C92FEE /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
+		E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPCalculatorStyleNumberInputView.xib; sourceTree = "<group>"; };
+		E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPNumberDisplay.xib; sourceTree = "<group>"; };
+		E22BAB164EC7006A28345108 /* HSPNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberDisplay.h; sourceTree = "<group>"; };
+		E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPCalculatorStyleNumberInputView.m; sourceTree = "<group>"; };
 		E22BAC5F6B8F18A8B117A9CA /* HSPXibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPXibLoadedView.m; sourceTree = "<group>"; };
 		E22BAC7CE1371A4CEE2C0196 /* MESCalculatorStyleNumberInputTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESCalculatorStyleNumberInputTestViewController.h; sourceTree = "<group>"; };
 		E22BACD91952F3E1480D171F /* HSPXibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPXibLoadedView.h; sourceTree = "<group>"; };
-		E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
-		E22BAFEF1866F1B220BE5B97 /* MESNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberDisplay.h; sourceTree = "<group>"; };
+		E22BAD1055666CDFB64C1D0A /* HSPNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberPad.h; sourceTree = "<group>"; };
+		E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPNumberPad.xib; sourceTree = "<group>"; };
+		E22BAF1785C4CF65DFF7E253 /* HSPNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberPad.m; sourceTree = "<group>"; };
 		FDA6F3142A0357CC769C801A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,39 +63,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BB993521A03CCE100944AA9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0BB993331A03CCE100944AA9 = {
 			isa = PBXGroup;
 			children = (
-				0BB9933E1A03CCE100944AA9 /* CalculatorExperiments */,
-				0BB993581A03CCE100944AA9 /* CalculatorExperimentsTests */,
+				E22BA77622FAFA43C38A278C /* Classes */,
+				0BB9933E1A03CCE100944AA9 /* Demo */,
 				0BB9933D1A03CCE100944AA9 /* Products */,
 				C894015CB8F815C74DF1335E /* Frameworks */,
-				A951881F1FCEE6149521AF5E /* Pods.xcconfig */,
-				AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */,
+				7DD8C852448418B657D89FF1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		0BB9933D1A03CCE100944AA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */,
-				0BB993551A03CCE100944AA9 /* CalculatorExperimentsTests.xctest */,
+				0BB9933C1A03CCE100944AA9 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BB9933E1A03CCE100944AA9 /* CalculatorExperiments */ = {
+		0BB9933E1A03CCE100944AA9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				0BB993431A03CCE100944AA9 /* AppDelegate.h */,
@@ -122,10 +97,9 @@
 				0BB9934C1A03CCE100944AA9 /* Images.xcassets */,
 				0BB9933F1A03CCE100944AA9 /* Supporting Files */,
 				E22BA1C00B74FD47B617CF40 /* Utilities */,
-				E22BA2B54C37419ABF599528 /* CalculatorStyleNumberInput */,
 				E22BA0A9F9162069AD75CAB9 /* ViewControllers */,
 			);
-			path = CalculatorExperiments;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		0BB9933F1A03CCE100944AA9 /* Supporting Files */ = {
@@ -137,21 +111,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0BB993581A03CCE100944AA9 /* CalculatorExperimentsTests */ = {
+		7DD8C852448418B657D89FF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */,
-				0BB993591A03CCE100944AA9 /* Supporting Files */,
+				49B1B9B1C8EA60D559142BDC /* Pods.debug.xcconfig */,
+				D63F199E70E9145FAF11E520 /* Pods.release.xcconfig */,
 			);
-			path = CalculatorExperimentsTests;
-			sourceTree = "<group>";
-		};
-		0BB993591A03CCE100944AA9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BB9935A1A03CCE200944AA9 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C894015CB8F815C74DF1335E /* Frameworks */ = {
@@ -163,6 +129,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E22BA081C2F822C0697A57FA /* NumberDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E22BAB164EC7006A28345108 /* HSPNumberDisplay.h */,
+				E22BA32138F8608BDBAA18FE /* HSPNumberDisplay.m */,
+				E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */,
+			);
+			path = NumberDisplay;
+			sourceTree = "<group>";
+		};
 		E22BA0A9F9162069AD75CAB9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +146,16 @@
 				E22BAC7CE1371A4CEE2C0196 /* MESCalculatorStyleNumberInputTestViewController.h */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E22BA0EBFDDC992085106E3F /* NumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				E22BAF1785C4CF65DFF7E253 /* HSPNumberPad.m */,
+				E22BAD1055666CDFB64C1D0A /* HSPNumberPad.h */,
+				E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */,
+			);
+			path = NumberPad;
 			sourceTree = "<group>";
 		};
 		E22BA1C00B74FD47B617CF40 /* Utilities */ = {
@@ -181,44 +167,24 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		E22BA2B54C37419ABF599528 /* CalculatorStyleNumberInput */ = {
+		E22BA77622FAFA43C38A278C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E22BACB6C01DE842A833F025 /* NumberDisplay */,
-				E22BAC643E04F2687B772D84 /* NumberPad */,
-				0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */,
-				0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */,
-				0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */,
+				E22BA0EBFDDC992085106E3F /* NumberPad */,
+				E22BA20B3B4A10E691BBC973 /* HSPCalculatorStyleNumberInputView.h */,
+				E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */,
+				E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */,
+				E22BA081C2F822C0697A57FA /* NumberDisplay */,
 			);
-			path = CalculatorStyleNumberInput;
-			sourceTree = "<group>";
-		};
-		E22BAC643E04F2687B772D84 /* NumberPad */ = {
-			isa = PBXGroup;
-			children = (
-				E22BA5A617E5B28134C92FEE /* MESNumberPad.m */,
-				E22BA2B94EFDCD9EB29CFB02 /* MESNumberPad.h */,
-				E22BAE5F4DE10E511009B21C /* MESNumberPad.xib */,
-			);
-			path = NumberPad;
-			sourceTree = "<group>";
-		};
-		E22BACB6C01DE842A833F025 /* NumberDisplay */ = {
-			isa = PBXGroup;
-			children = (
-				E22BAFEF1866F1B220BE5B97 /* MESNumberDisplay.h */,
-				E22BA2C9695FA0CBEBCF9E2C /* MESNumberDisplay.m */,
-				E22BA1D4EE98892DB5FAB632 /* MESNumberDisplay.xib */,
-			);
-			path = NumberDisplay;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BB9933B1A03CCE100944AA9 /* CalculatorExperiments */ = {
+		0BB9933B1A03CCE100944AA9 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BB9935F1A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "CalculatorExperiments" */;
+			buildConfigurationList = 0BB9935F1A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				50B287FBF8D80F6DA9E9381F /* Check Pods Manifest.lock */,
 				0BB993381A03CCE100944AA9 /* Sources */,
@@ -230,30 +196,10 @@
 			);
 			dependencies = (
 			);
-			name = CalculatorExperiments;
+			name = Demo;
 			productName = CalculatorExperiments;
-			productReference = 0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */;
+			productReference = 0BB9933C1A03CCE100944AA9 /* Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0BB993541A03CCE100944AA9 /* CalculatorExperimentsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BB993621A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "CalculatorExperimentsTests" */;
-			buildPhases = (
-				39351C1E6690DE88446BCEA6 /* Check Pods Manifest.lock */,
-				0BB993511A03CCE100944AA9 /* Sources */,
-				0BB993521A03CCE100944AA9 /* Frameworks */,
-				0BB993531A03CCE100944AA9 /* Resources */,
-				31878ED03FB2895CD75757BE /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BB993571A03CCE100944AA9 /* PBXTargetDependency */,
-			);
-			name = CalculatorExperimentsTests;
-			productName = CalculatorExperimentsTests;
-			productReference = 0BB993551A03CCE100944AA9 /* CalculatorExperimentsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -267,13 +213,9 @@
 					0BB9933B1A03CCE100944AA9 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					0BB993541A03CCE100944AA9 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 0BB9933B1A03CCE100944AA9;
-					};
 				};
 			};
-			buildConfigurationList = 0BB993371A03CCE100944AA9 /* Build configuration list for PBXProject "CalculatorExperiments" */;
+			buildConfigurationList = 0BB993371A03CCE100944AA9 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,8 +228,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BB9933B1A03CCE100944AA9 /* CalculatorExperiments */,
-				0BB993541A03CCE100944AA9 /* CalculatorExperimentsTests */,
+				0BB9933B1A03CCE100944AA9 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -299,53 +240,16 @@
 			files = (
 				0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */,
 				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
-				0B2646C41A051D340012E633 /* MESCalculatorStyleNumberInput.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
-				E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */,
-				E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0BB993531A03CCE100944AA9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */,
+				E22BAFBF1B289783B178B921 /* HSPCalculatorStyleNumberInputView.xib in Resources */,
+				E22BA83616735DD98B82E771 /* HSPNumberDisplay.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31878ED03FB2895CD75757BE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-CalculatorExperimentsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		39351C1E6690DE88446BCEA6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		50B287FBF8D80F6DA9E9381F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,7 +277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -384,33 +288,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB993481A03CCE100944AA9 /* ViewController.m in Sources */,
-				0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */,
 				0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */,
 				0BB993421A03CCE100944AA9 /* main.m in Sources */,
 				E22BA973CA07009ABB48B306 /* HSPXibLoadedView.m in Sources */,
-				E22BA99F574FA5A6744D6038 /* MESNumberDisplay.m in Sources */,
-				E22BA7C737048CDC15839B68 /* MESNumberPad.m in Sources */,
 				E22BAC67EFF1DF96BA29870A /* MESCalculatorStyleNumberInputTestViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0BB993511A03CCE100944AA9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BB9935C1A03CCE200944AA9 /* CalculatorExperimentsTests.m in Sources */,
+				E22BADC359C7A23DBBE61067 /* HSPNumberPad.m in Sources */,
+				E22BA721CD038A966B696F0D /* HSPCalculatorStyleNumberInputView.m in Sources */,
+				E22BAD5929FEBE6550D25703 /* HSPNumberDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0BB993571A03CCE100944AA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0BB9933B1A03CCE100944AA9 /* CalculatorExperiments */;
-			targetProxy = 0BB993561A03CCE100944AA9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0BB993491A03CCE100944AA9 /* Main.storyboard */ = {
@@ -512,66 +400,30 @@
 		};
 		0BB993601A03CCE200944AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A951881F1FCEE6149521AF5E /* Pods.xcconfig */;
+			baseConfigurationReference = 49B1B9B1C8EA60D559142BDC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CalculatorExperiments/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 			};
 			name = Debug;
 		};
 		0BB993611A03CCE200944AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A951881F1FCEE6149521AF5E /* Pods.xcconfig */;
+			baseConfigurationReference = D63F199E70E9145FAF11E520 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CalculatorExperiments/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		0BB993631A03CCE200944AA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CalculatorExperimentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorExperiments.app/CalculatorExperiments";
-			};
-			name = Debug;
-		};
-		0BB993641A03CCE200944AA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CalculatorExperimentsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorExperiments.app/CalculatorExperiments";
+				PRODUCT_NAME = Demo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BB993371A03CCE100944AA9 /* Build configuration list for PBXProject "CalculatorExperiments" */ = {
+		0BB993371A03CCE100944AA9 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BB9935D1A03CCE200944AA9 /* Debug */,
@@ -580,20 +432,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BB9935F1A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "CalculatorExperiments" */ = {
+		0BB9935F1A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BB993601A03CCE200944AA9 /* Debug */,
 				0BB993611A03CCE200944AA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0BB993621A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "CalculatorExperimentsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BB993631A03CCE200944AA9 /* Debug */,
-				0BB993641A03CCE200944AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

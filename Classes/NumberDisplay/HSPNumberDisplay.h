@@ -1,5 +1,5 @@
 //
-//  MESCalculatorStyleNumberInput.h
+//  HSPNumberDisplay.h
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 01/11/2014.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HSPXibLoadedView.h"
 
-@interface MESCalculatorStyleNumberInput : HSPXibLoadedView
-@property(nonatomic, strong) NSDecimalNumber *number;
+@interface HSPNumberDisplay : HSPXibLoadedView
+@property(nonatomic, copy) NSString *numberString;
 @property(nonatomic, copy) NSString *unit;
 @end

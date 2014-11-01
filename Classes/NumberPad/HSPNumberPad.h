@@ -1,5 +1,5 @@
 //
-//  MESNumberPad.h
+//  HSPNumberPad.h
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 31/10/2014.
@@ -12,6 +12,6 @@
 typedef void (^NumberTouchedBlock)(NSUInteger n);
 typedef void (^VoidBlock)();
 
-@interface MESNumberPad : HSPXibLoadedView
+@interface HSPNumberPad : HSPXibLoadedView
 - (void)setNumberTouchedBlock:(NumberTouchedBlock)numberTouchedBlock clearTouchedBlock:(VoidBlock)clearTouchedBlock decimalPointTouchedBlock:(VoidBlock)decimalPointTouchedBlock;
 @end

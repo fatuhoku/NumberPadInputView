@@ -4,8 +4,3 @@ pod 'APNumberPad'
 pod 'FlatButtons'
 pod 'Masonry'
 pod 'ReactiveCocoa'
-
-target 'CalculatorExperimentsTests' do
-  pod 'Specta'
-  pod 'Expecta'
-end
