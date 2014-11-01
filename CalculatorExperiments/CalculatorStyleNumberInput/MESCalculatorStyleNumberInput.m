@@ -23,7 +23,16 @@
 
     self.number = [NSDecimalNumber zero];
 
-    // RAC Bindings
+    // Set up blocks
+    [self.numberPad setNumberTouchedBlock:^(NSUInteger n){
+        NSLog(@"Touched number: %lu", (unsigned long)n);
+    } clearTouchedBlock:^{
+        NSLog(@"Touched CLEAR.");
+    } decimalPointTouchedBlock:^{
+        NSLog(@"Touched DP.");
+    }];
+
+        // RAC Bindings
     RAC(self, numberDisplay.number) = RACObserve(self, number);
     RAC(self, numberDisplay.unit) = RACObserve(self, unit);
 }
