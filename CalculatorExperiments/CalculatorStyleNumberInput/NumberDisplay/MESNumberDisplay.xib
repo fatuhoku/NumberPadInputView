@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MESNumberDisplay">
             <connections>
+                <outlet property="numberLabel" destination="ixb-Tg-0Wb" id="bhz-8Y-RGS"/>
+                <outlet property="unitLabel" destination="IeA-yi-NYf" id="Hx7-Za-EUK"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Jbk-dH-2tJ"/>
             </connections>
         </placeholder>

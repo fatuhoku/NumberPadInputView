@@ -10,6 +10,6 @@
 #import "MESXibLoadedView.h"
 
 @interface MESNumberDisplay : MESXibLoadedView
-@property(nonatomic, strong) NSDecimalNumber *number;
-@property(nonatomic, strong) NSDecimalNumber *unit;
+@property(nonatomic, copy) NSString *numberString;
+@property(nonatomic, copy) NSString *unit;
 @end

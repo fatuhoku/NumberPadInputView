@@ -11,5 +11,5 @@
 
 @interface MESCalculatorStyleNumberInput : MESXibLoadedView
 @property(nonatomic, strong) NSDecimalNumber *number;
-@property(nonatomic, strong) NSString *unit;
+@property(nonatomic, copy) NSString *unit;
 @end
