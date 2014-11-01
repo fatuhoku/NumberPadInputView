@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HSPXibLoadedView.h"
+#import "HSPCompositeXibView.h"
 
-@interface HSPCalculatorStyleNumberInputView : HSPXibLoadedView
+@interface HSPCalculatorStyleNumberInputView : HSPCompositeXibView
 @property(nonatomic, strong) NSDecimalNumber *number;
 @property(nonatomic, copy) NSString *unit;
 @end

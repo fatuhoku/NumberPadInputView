@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HSPXibLoadedView.h"
+#import "HSPCompositeXibView.h"
 
 typedef void (^NumberTouchedBlock)(NSUInteger n);
 typedef void (^VoidBlock)();
 
-@interface HSPNumberPad : HSPXibLoadedView
+@interface HSPNumberPad : HSPCompositeXibView
 - (void)setNumberTouchedBlock:(NumberTouchedBlock)numberTouchedBlock clearTouchedBlock:(VoidBlock)clearTouchedBlock decimalPointTouchedBlock:(VoidBlock)decimalPointTouchedBlock;
 @end
