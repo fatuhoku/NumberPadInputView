@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="272" y="-19"/>
         </scene>
-        <!--View Controller-->
+        <!--Calculator Style Number Input Test View Controller-->
         <scene sceneID="5Op-RI-cLX">
             <objects>
-                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" customClass="MESCalculatorStyleNumberInputTestViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SDV-Ip-tsG"/>
                         <viewControllerLayoutGuide type="bottom" id="Dds-kW-P3M"/>
@@ -106,13 +106,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="grams" borderStyle="roundedRect" placeholder="Unit (e.g. grams)" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Dy-PH-Saf">
+                                <rect key="frame" x="300" y="518" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Jca-N1-bzm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="t7e-fR-Z15" secondAttribute="centerX" id="IQU-K4-IAE"/>
                             <constraint firstAttribute="centerY" secondItem="t7e-fR-Z15" secondAttribute="centerY" id="IXb-4R-jK0"/>
+                            <constraint firstItem="t7e-fR-Z15" firstAttribute="trailing" secondItem="3Dy-PH-Saf" secondAttribute="trailing" id="keA-Pa-E1X"/>
+                            <constraint firstItem="3Dy-PH-Saf" firstAttribute="top" secondItem="t7e-fR-Z15" secondAttribute="bottom" constant="8" id="qiF-v9-Uez"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calculatorStyleNumberInput" destination="t7e-fR-Z15" id="aM5-qB-mNn"/>
+                        <outlet property="unitField" destination="3Dy-PH-Saf" id="8aS-9M-zFe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NR3-na-nS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
