@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="av3-TD-IN4" customClass="MESNumberDisplay">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <rect key="frame" x="140" y="256" width="320" height="88"/>
                                 <color key="backgroundColor" red="0.89175134199999995" green="0.53891871170000005" blue="0.13662942850000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="RUx-JQ-Cs7"/>
-                                    <constraint firstAttribute="height" constant="300" id="Un3-1g-Wdk"/>
+                                    <constraint firstAttribute="width" constant="320" id="RUx-JQ-Cs7"/>
+                                    <constraint firstAttribute="height" constant="88" id="Un3-1g-Wdk"/>
                                 </constraints>
                             </view>
                         </subviews>
