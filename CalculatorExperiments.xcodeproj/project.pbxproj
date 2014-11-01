@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */; };
-		0B3263B81A03D225008FE0D1 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B3263B71A03D225008FE0D1 /* MESNumberPad.xib */; };
-		0B93DAE01A03DE8A003EF079 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B93DADF1A03DE8A003EF079 /* MESNumberPad.m */; };
 		0BB993421A03CCE100944AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993411A03CCE100944AA9 /* main.m */; };
 		0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993441A03CCE100944AA9 /* AppDelegate.m */; };
 		0BB993481A03CCE100944AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993471A03CCE100944AA9 /* ViewController.m */; };
@@ -17,6 +15,8 @@
 		0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934C1A03CCE100944AA9 /* Images.xcassets */; };
 		0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */; };
 		0BB9935C1A03CCE200944AA9 /* CalculatorExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */; };
+		E22BA2EA7232DAFFAF5E3001 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BACA8512E4FABAB75830C /* MESNumberPad.m */; };
+		E22BA3493F3F284418519010 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */; };
 		E85BB8C467C77F3D381A7EC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6F3142A0357CC769C801A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B3263B71A03D225008FE0D1 /* MESNumberPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
-		0B93DADE1A03DE8A003EF079 /* MESNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberPad.h; sourceTree = "<group>"; };
-		0B93DADF1A03DE8A003EF079 /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
 		0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB993401A03CCE100944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB993411A03CCE100944AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +47,9 @@
 		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A951881F1FCEE6149521AF5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorExperimentsTests.xcconfig"; path = "Pods/Pods-CalculatorExperimentsTests.xcconfig"; sourceTree = "<group>"; };
+		E22BA3820AB6C89FD0CEAFE3 /* MESNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESNumberPad.h; sourceTree = "<group>"; };
+		E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MESNumberPad.xib; sourceTree = "<group>"; };
+		E22BACA8512E4FABAB75830C /* MESNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESNumberPad.m; sourceTree = "<group>"; };
 		FDA6F3142A0357CC769C801A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,11 +103,9 @@
 				0BB993471A03CCE100944AA9 /* ViewController.m */,
 				0BB993491A03CCE100944AA9 /* Main.storyboard */,
 				0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */,
-				0B3263B71A03D225008FE0D1 /* MESNumberPad.xib */,
 				0BB9934C1A03CCE100944AA9 /* Images.xcassets */,
 				0BB9933F1A03CCE100944AA9 /* Supporting Files */,
-				0B93DADE1A03DE8A003EF079 /* MESNumberPad.h */,
-				0B93DADF1A03DE8A003EF079 /* MESNumberPad.m */,
+				E22BADB7C434CA31CE49BE8E /* NumberPad */,
 			);
 			path = CalculatorExperiments;
 			sourceTree = "<group>";
@@ -145,6 +143,16 @@
 				4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22BADB7C434CA31CE49BE8E /* NumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				E22BACA8512E4FABAB75830C /* MESNumberPad.m */,
+				E22BA3820AB6C89FD0CEAFE3 /* MESNumberPad.h */,
+				E22BAAF92B20CA8F5D1C43CB /* MESNumberPad.xib */,
+			);
+			path = NumberPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +241,8 @@
 			files = (
 				0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */,
 				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
-				0B3263B81A03D225008FE0D1 /* MESNumberPad.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
+				E22BA3493F3F284418519010 /* MESNumberPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B93DAE01A03DE8A003EF079 /* MESNumberPad.m in Sources */,
 				0BB993481A03CCE100944AA9 /* ViewController.m in Sources */,
 				0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */,
 				0BB993421A03CCE100944AA9 /* main.m in Sources */,
+				E22BA2EA7232DAFFAF5E3001 /* MESNumberPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
