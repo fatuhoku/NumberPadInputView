@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mmj-hX-GhL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="the-45-nYI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--Number Display View Controller-->
         <scene sceneID="ZVe-4f-llJ">
             <objects>
-                <viewController id="mmj-hX-GhL" userLabel="Number Display View Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb_numberDisplayTest" id="mmj-hX-GhL" userLabel="Number Display View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ebc-NV-FXx"/>
                         <viewControllerLayoutGuide type="bottom" id="72n-EO-OcD"/>
@@ -24,6 +24,12 @@
                                     <constraint firstAttribute="height" constant="88" id="Un3-1g-Wdk"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MESNumberDisplay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-Sl-XSb">
+                                <rect key="frame" x="223" y="227" width="155" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -39,7 +45,7 @@
         <!--Number Pad Test View Controller-->
         <scene sceneID="b04-ww-f5y">
             <objects>
-                <viewController id="wfM-e9-3Gp" userLabel="Number Pad Test View Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb_numberPadTest" id="wfM-e9-3Gp" userLabel="Number Pad Test View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ie4-c2-ch2"/>
                         <viewControllerLayoutGuide type="bottom" id="TBw-8A-Azb"/>
@@ -56,6 +62,12 @@
                                     <constraint firstAttribute="height" constant="300" id="XgH-kg-qfk"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MESNumberPad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZK-w7-ah5">
+                                <rect key="frame" x="236" y="121" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -66,7 +78,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6m-gc-1tm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="272" y="17"/>
+            <point key="canvasLocation" x="272" y="-19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5Op-RI-cLX">
+            <objects>
+                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SDV-Ip-tsG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dds-kW-P3M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="thr-xu-zfo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7e-fR-Z15" customClass="MESCalculatorStyleNumberInput">
+                                <rect key="frame" x="140" y="90" width="320" height="420"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="KlO-CO-ltb"/>
+                                    <constraint firstAttribute="width" constant="320" id="pAA-Oy-P5Z"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MESCalculatorStyleNumberInput" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skn-dV-7li">
+                                <rect key="frame" x="173" y="61" width="254" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="t7e-fR-Z15" secondAttribute="centerX" id="IQU-K4-IAE"/>
+                            <constraint firstAttribute="centerY" secondItem="t7e-fR-Z15" secondAttribute="centerY" id="IXb-4R-jK0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NR3-na-nS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="-257"/>
         </scene>
     </scenes>
 </document>

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */; };
 		0B2646C21A051D1F0012E633 /* MESCalculatorStyleNumberInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */; };
-		0B2646C41A051D340012E633 /* MESCalculatorStylenNumberInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */; };
+		0B2646C41A051D340012E633 /* MESCalculatorStyleNumberInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */; };
 		0BB993421A03CCE100944AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993411A03CCE100944AA9 /* main.m */; };
 		0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993441A03CCE100944AA9 /* AppDelegate.m */; };
 		0BB993481A03CCE100944AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993471A03CCE100944AA9 /* ViewController.m */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESCalculatorStyleNumberInput.h; sourceTree = "<group>"; };
 		0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESCalculatorStyleNumberInput.m; sourceTree = "<group>"; };
-		0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESCalculatorStylenNumberInput.xib; sourceTree = "<group>"; };
+		0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MESCalculatorStyleNumberInput.xib; sourceTree = "<group>"; };
 		0BB9933C1A03CCE100944AA9 /* CalculatorExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB993401A03CCE100944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB993411A03CCE100944AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				E22BAC643E04F2687B772D84 /* NumberPad */,
 				0B2646C01A051D1F0012E633 /* MESCalculatorStyleNumberInput.h */,
 				0B2646C11A051D1F0012E633 /* MESCalculatorStyleNumberInput.m */,
-				0B2646C31A051D340012E633 /* MESCalculatorStylenNumberInput.xib */,
+				0B2646C31A051D340012E633 /* MESCalculatorStyleNumberInput.xib */,
 			);
 			path = CalculatorStyleNumberInput;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			files = (
 				0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */,
 				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
-				0B2646C41A051D340012E633 /* MESCalculatorStylenNumberInput.xib in Resources */,
+				0B2646C41A051D340012E633 /* MESCalculatorStyleNumberInput.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
 				E22BA9D600AC4FF499A071DB /* MESNumberDisplay.xib in Resources */,
 				E22BA849BCC31AA3388729E1 /* MESNumberPad.xib in Resources */,
