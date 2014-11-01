@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MESXibLoadedView.h"
 
-@interface MESNumberPad : UIView
-@property (strong, nonatomic) IBOutlet MESNumberPad *view;
+@interface MESNumberPad : MESXibLoadedView
 @end
