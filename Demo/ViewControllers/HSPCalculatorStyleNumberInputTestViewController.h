@@ -7,5 +7,5 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MESCalculatorStyleNumberInputTestViewController : UIViewController
+@interface HSPCalculatorStyleNumberInputTestViewController : UIViewController
 @end

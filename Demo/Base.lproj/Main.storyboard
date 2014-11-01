@@ -83,7 +83,7 @@
         <!--Calculator Style Number Input Test View Controller-->
         <scene sceneID="5Op-RI-cLX">
             <objects>
-                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" customClass="MESCalculatorStyleNumberInputTestViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" customClass="HSPCalculatorStyleNumberInputTestViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SDV-Ip-tsG"/>
                         <viewControllerLayoutGuide type="bottom" id="Dds-kW-P3M"/>
