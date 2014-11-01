@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */; };
 		0B3263B81A03D225008FE0D1 /* MESNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B3263B71A03D225008FE0D1 /* MESNumberPad.xib */; };
 		0B93DAE01A03DE8A003EF079 /* MESNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B93DADF1A03DE8A003EF079 /* MESNumberPad.m */; };
 		0BB993421A03CCE100944AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993411A03CCE100944AA9 /* main.m */; };
@@ -46,7 +47,9 @@
 		0BB993551A03CCE100944AA9 /* CalculatorExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB9935A1A03CCE200944AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB9935B1A03CCE200944AA9 /* CalculatorExperimentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorExperimentsTests.m; sourceTree = "<group>"; };
+		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A951881F1FCEE6149521AF5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorExperimentsTests.xcconfig"; path = "Pods/Pods-CalculatorExperimentsTests.xcconfig"; sourceTree = "<group>"; };
 		FDA6F3142A0357CC769C801A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC7E5201865B94934E4346C /* libPods-CalculatorExperimentsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +81,7 @@
 				0BB9933D1A03CCE100944AA9 /* Products */,
 				A951881F1FCEE6149521AF5E /* Pods.xcconfig */,
 				C894015CB8F815C74DF1335E /* Frameworks */,
+				AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA6F3142A0357CC769C801A /* libPods.a */,
+				4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BB993621A03CCE200944AA9 /* Build configuration list for PBXNativeTarget "CalculatorExperimentsTests" */;
 			buildPhases = (
+				39351C1E6690DE88446BCEA6 /* Check Pods Manifest.lock */,
 				0BB993511A03CCE100944AA9 /* Sources */,
 				0BB993521A03CCE100944AA9 /* Frameworks */,
 				0BB993531A03CCE100944AA9 /* Resources */,
+				31878ED03FB2895CD75757BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +248,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		31878ED03FB2895CD75757BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CalculatorExperimentsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39351C1E6690DE88446BCEA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		50B287FBF8D80F6DA9E9381F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +462,7 @@
 		};
 		0BB993631A03CCE200944AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -443,6 +482,7 @@
 		};
 		0BB993641A03CCE200944AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7E01E31CE2BDFB7F6B8398 /* Pods-CalculatorExperimentsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

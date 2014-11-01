@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MESNumberPad">
             <connections>
+                <outlet property="button2" destination="wNg-Mr-ET0" id="cof-tJ-OGa"/>
                 <outlet property="view" destination="4Ls-vC-ZJW" id="OM8-WR-hew"/>
             </connections>
         </placeholder>
@@ -26,13 +27,12 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNg-Mr-ET0">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNg-Mr-ET0" customClass="KHFlatButton">
                             <rect key="frame" x="201" y="0.0" width="198" height="149"/>
                             <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="34"/>
                             <state key="normal" title="2">
                                 <color key="titleColor" red="0.0" green="0.36335313320000001" blue="0.13662942850000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFK-jr-h8e">
@@ -222,7 +222,7 @@
                 <constraint firstItem="fxF-6x-Q4f" firstAttribute="height" secondItem="g9B-yv-MZn" secondAttribute="height" id="u7G-5I-eSD"/>
                 <constraint firstAttribute="trailing" secondItem="fxF-6x-Q4f" secondAttribute="trailing" id="yim-FN-YrL"/>
             </constraints>
-            <point key="canvasLocation" x="-55" y="418"/>
+            <point key="canvasLocation" x="-55" y="422"/>
         </view>
     </objects>
 </document>

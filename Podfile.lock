@@ -1,10 +1,19 @@
 PODS:
   - APNumberPad (1.1.2)
+  - Expecta (0.3.1)
+  - KHFlatButton (1.2.0)
+  - Specta (0.2.1)
 
 DEPENDENCIES:
   - APNumberPad
+  - Expecta
+  - KHFlatButton
+  - Specta
 
 SPEC CHECKSUMS:
   APNumberPad: 944238a3b5013d84df84d25d19b3e024e797daab
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  KHFlatButton: 2cec6590651e97ae68242b277986e8526af65127
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
 
 COCOAPODS: 0.33.1

@@ -7,6 +7,11 @@
 //
 
 #import "MESNumberPad.h"
+#import "KHFlatButton.h"
+
+@interface MESNumberPad ()
+@property (strong, nonatomic) IBOutlet KHFlatButton *button2;
+@end
 
 
 @implementation MESNumberPad
@@ -21,6 +26,7 @@
 
 - (void)setup {
     [[NSBundle mainBundle] loadNibNamed:@"MESNumberPad" owner:self options:nil];
+
     [self addSubview:self.view];
 }
 
