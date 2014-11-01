@@ -4,7 +4,6 @@
 //
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import <ReactiveCocoa/UITextField+RACSignalSupport.h>
 #import "MESCalculatorStyleNumberInputTestViewController.h"
 #import "MESCalculatorStyleNumberInput.h"
 
