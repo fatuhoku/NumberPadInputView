@@ -7,10 +7,9 @@
 //
 
 #import "MESNumberPad.h"
-#import "KHFlatButton.h"
 
 @interface MESNumberPad ()
-@property (strong, nonatomic) IBOutlet KHFlatButton *button2;
+@property (strong, nonatomic) IBOutlet UIButton *button2;
 @end
 
 
