@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Number Pad Test View Controller-->
         <scene sceneID="b04-ww-f5y">
             <objects>
-                <viewController id="wfM-e9-3Gp" sceneMemberID="viewController">
+                <viewController id="wfM-e9-3Gp" userLabel="Number Pad Test View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ie4-c2-ch2"/>
                         <viewControllerLayoutGuide type="bottom" id="TBw-8A-Azb"/>
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbJ-We-u0e" userLabel="Keypad" customClass="MESNumberPad">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbJ-We-u0e" customClass="MESNumberPad">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.4039215686" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
