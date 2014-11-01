@@ -11,5 +11,5 @@
 // Works with autolayout constraints on the bounds of the view.
 // The XIB name is given by the class name set in Interface Builder.
 @interface MESXibLoadedView : UIView
-@property(strong, nonatomic) UIView *view;
+@property(strong, nonatomic) IBOutlet UIView *view;
 @end
