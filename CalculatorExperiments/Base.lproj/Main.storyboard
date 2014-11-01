@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wfM-e9-3Gp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mmj-hX-GhL">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
+        <!--Number Display View Controller-->
+        <scene sceneID="ZVe-4f-llJ">
+            <objects>
+                <viewController id="mmj-hX-GhL" userLabel="Number Display View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ebc-NV-FXx"/>
+                        <viewControllerLayoutGuide type="bottom" id="72n-EO-OcD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zd6-c8-BMr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="av3-TD-IN4" customClass="MESNumberDisplay">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.89175134199999995" green="0.53891871170000005" blue="0.13662942850000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="RUx-JQ-Cs7"/>
+                                    <constraint firstAttribute="height" constant="300" id="Un3-1g-Wdk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="av3-TD-IN4" secondAttribute="centerY" id="BxT-Ni-zGe"/>
+                            <constraint firstAttribute="centerX" secondItem="av3-TD-IN4" secondAttribute="centerX" id="iiP-Wg-Wwy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SER-H0-hH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="-683"/>
+        </scene>
         <!--Number Pad Test View Controller-->
         <scene sceneID="b04-ww-f5y">
             <objects>
