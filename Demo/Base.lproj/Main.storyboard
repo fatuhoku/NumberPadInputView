@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="the-45-nYI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="the-45-nYI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Number Display View Controller-->
@@ -24,8 +24,8 @@
                                     <constraint firstAttribute="height" constant="88" id="Un3-1g-Wdk"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MESNumberDisplay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-Sl-XSb">
-                                <rect key="frame" x="223" y="227" width="155" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HSPNumberDisplay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-Sl-XSb">
+                                <rect key="frame" x="224" y="227" width="153" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,6 +34,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="av3-TD-IN4" secondAttribute="centerY" id="BxT-Ni-zGe"/>
+                            <constraint firstItem="av3-TD-IN4" firstAttribute="top" secondItem="Nb7-Sl-XSb" secondAttribute="bottom" constant="8" id="QdU-cD-Gbx"/>
+                            <constraint firstAttribute="centerX" secondItem="Nb7-Sl-XSb" secondAttribute="centerX" constant="-0.5" id="YTf-j4-t4k"/>
                             <constraint firstAttribute="centerX" secondItem="av3-TD-IN4" secondAttribute="centerX" id="iiP-Wg-Wwy"/>
                         </constraints>
                     </view>
@@ -62,8 +64,8 @@
                                     <constraint firstAttribute="height" constant="300" id="XgH-kg-qfk"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HSPNumberPad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZK-w7-ah5">
-                                <rect key="frame" x="236" y="121" width="129" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HSPNumberPad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZK-w7-ah5">
+                                <rect key="frame" x="237" y="121" width="127" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,6 +73,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jbJ-We-u0e" firstAttribute="top" secondItem="eZK-w7-ah5" secondAttribute="bottom" constant="8" id="DT2-Od-p4s"/>
+                            <constraint firstAttribute="centerX" secondItem="eZK-w7-ah5" secondAttribute="centerX" constant="-0.5" id="Syk-eE-YQQ"/>
                             <constraint firstAttribute="centerY" secondItem="jbJ-We-u0e" secondAttribute="centerY" id="YW6-EI-oIP"/>
                             <constraint firstAttribute="centerX" secondItem="jbJ-We-u0e" secondAttribute="centerX" id="v8M-TH-9ih"/>
                         </constraints>
@@ -100,12 +104,6 @@
                                     <constraint firstAttribute="width" constant="320" id="pAA-Oy-P5Z"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HSPCalculatorStyleNumberInputView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skn-dV-7li">
-                                <rect key="frame" x="173" y="61" width="254" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="grams" borderStyle="roundedRect" placeholder="Unit (e.g. grams)" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Dy-PH-Saf">
                                 <rect key="frame" x="300" y="518" width="160" height="30"/>
                                 <constraints>
@@ -114,13 +112,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HSPCalculatorStyleInputView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKN-Y6-LAH">
+                                <rect key="frame" x="187" y="61" width="226" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="t7e-fR-Z15" secondAttribute="centerX" id="IQU-K4-IAE"/>
                             <constraint firstAttribute="centerY" secondItem="t7e-fR-Z15" secondAttribute="centerY" id="IXb-4R-jK0"/>
                             <constraint firstItem="t7e-fR-Z15" firstAttribute="trailing" secondItem="3Dy-PH-Saf" secondAttribute="trailing" id="keA-Pa-E1X"/>
+                            <constraint firstAttribute="centerX" secondItem="iKN-Y6-LAH" secondAttribute="centerX" id="mVT-9D-kuz"/>
                             <constraint firstItem="3Dy-PH-Saf" firstAttribute="top" secondItem="t7e-fR-Z15" secondAttribute="bottom" constant="8" id="qiF-v9-Uez"/>
+                            <constraint firstItem="t7e-fR-Z15" firstAttribute="top" secondItem="iKN-Y6-LAH" secondAttribute="bottom" constant="8" id="whx-cX-hxG"/>
                         </constraints>
                     </view>
                     <connections>
