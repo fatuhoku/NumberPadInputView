@@ -7,5 +7,5 @@
 #import <UIKit/UIKit.h>
 
 
-@interface HSPCalculatorStyleNumberInputTestViewController : UIViewController
+@interface HSPNumberPadInputViewController : UIViewController
 @end

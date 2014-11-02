@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6245"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSPCalculatorStyleNumberInputView">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSPNumberPadInputView">
             <connections>
                 <outlet property="numberDisplay" destination="87x-Y5-prg" id="AVW-MP-jaa"/>
                 <outlet property="numberPad" destination="wfN-sp-i0K" id="kFc-d7-Ntx"/>

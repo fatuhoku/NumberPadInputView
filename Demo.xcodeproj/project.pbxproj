@@ -14,12 +14,12 @@
 		0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934C1A03CCE100944AA9 /* Images.xcassets */; };
 		0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */; };
 		E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */; };
-		E22BA721CD038A966B696F0D /* HSPCalculatorStyleNumberInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */; };
+		E22BA721CD038A966B696F0D /* HSPNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC478DDA1022997205DB /* HSPNumberPadInputView.m */; };
 		E22BA83616735DD98B82E771 /* HSPNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */; };
-		E22BAC67EFF1DF96BA29870A /* HSPCalculatorStyleNumberInputTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA35AE3D6237B4D17F66E /* HSPCalculatorStyleNumberInputTestViewController.m */; };
+		E22BAC67EFF1DF96BA29870A /* HSPNumberPadInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA35AE3D6237B4D17F66E /* HSPNumberPadInputViewController.m */; };
 		E22BAD5929FEBE6550D25703 /* HSPNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA32138F8608BDBAA18FE /* HSPNumberDisplay.m */; };
 		E22BADC359C7A23DBBE61067 /* HSPNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAF1785C4CF65DFF7E253 /* HSPNumberPad.m */; };
-		E22BAFBF1B289783B178B921 /* HSPCalculatorStyleNumberInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */; };
+		E22BAFBF1B289783B178B921 /* HSPNumberPadInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA40E325E354EC7705C69 /* HSPNumberPadInputView.xib */; };
 		E85BB8C467C77F3D381A7EC7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA6F3142A0357CC769C801A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,14 +37,14 @@
 		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B1B9B1C8EA60D559142BDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D63F199E70E9145FAF11E520 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E22BA20B3B4A10E691BBC973 /* HSPCalculatorStyleNumberInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPCalculatorStyleNumberInputView.h; sourceTree = "<group>"; };
+		E22BA20B3B4A10E691BBC973 /* HSPNumberPadInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberPadInputView.h; sourceTree = "<group>"; };
 		E22BA32138F8608BDBAA18FE /* HSPNumberDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberDisplay.m; sourceTree = "<group>"; };
-		E22BA35AE3D6237B4D17F66E /* HSPCalculatorStyleNumberInputTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPCalculatorStyleNumberInputTestViewController.m; sourceTree = "<group>"; };
-		E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPCalculatorStyleNumberInputView.xib; sourceTree = "<group>"; };
+		E22BA35AE3D6237B4D17F66E /* HSPNumberPadInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberPadInputViewController.m; sourceTree = "<group>"; };
+		E22BA40E325E354EC7705C69 /* HSPNumberPadInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPNumberPadInputView.xib; sourceTree = "<group>"; };
 		E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPNumberDisplay.xib; sourceTree = "<group>"; };
 		E22BAB164EC7006A28345108 /* HSPNumberDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberDisplay.h; sourceTree = "<group>"; };
-		E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPCalculatorStyleNumberInputView.m; sourceTree = "<group>"; };
-		E22BAC7CE1371A4CEE2C0196 /* HSPCalculatorStyleNumberInputTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPCalculatorStyleNumberInputTestViewController.h; sourceTree = "<group>"; };
+		E22BAC478DDA1022997205DB /* HSPNumberPadInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberPadInputView.m; sourceTree = "<group>"; };
+		E22BAC7CE1371A4CEE2C0196 /* HSPNumberPadInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberPadInputViewController.h; sourceTree = "<group>"; };
 		E22BAD1055666CDFB64C1D0A /* HSPNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPNumberPad.h; sourceTree = "<group>"; };
 		E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSPNumberPad.xib; sourceTree = "<group>"; };
 		E22BAF1785C4CF65DFF7E253 /* HSPNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPNumberPad.m; sourceTree = "<group>"; };
@@ -138,8 +138,8 @@
 		E22BA0A9F9162069AD75CAB9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E22BA35AE3D6237B4D17F66E /* HSPCalculatorStyleNumberInputTestViewController.m */,
-				E22BAC7CE1371A4CEE2C0196 /* HSPCalculatorStyleNumberInputTestViewController.h */,
+				E22BA35AE3D6237B4D17F66E /* HSPNumberPadInputViewController.m */,
+				E22BAC7CE1371A4CEE2C0196 /* HSPNumberPadInputViewController.h */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 			isa = PBXGroup;
 			children = (
 				E22BA0EBFDDC992085106E3F /* NumberPad */,
-				E22BA20B3B4A10E691BBC973 /* HSPCalculatorStyleNumberInputView.h */,
-				E22BAC478DDA1022997205DB /* HSPCalculatorStyleNumberInputView.m */,
-				E22BA40E325E354EC7705C69 /* HSPCalculatorStyleNumberInputView.xib */,
+				E22BA20B3B4A10E691BBC973 /* HSPNumberPadInputView.h */,
+				E22BAC478DDA1022997205DB /* HSPNumberPadInputView.m */,
+				E22BA40E325E354EC7705C69 /* HSPNumberPadInputView.xib */,
 				E22BA081C2F822C0697A57FA /* NumberDisplay */,
 			);
 			path = Classes;
@@ -229,7 +229,7 @@
 				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
 				E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */,
-				E22BAFBF1B289783B178B921 /* HSPCalculatorStyleNumberInputView.xib in Resources */,
+				E22BAFBF1B289783B178B921 /* HSPNumberPadInputView.xib in Resources */,
 				E22BA83616735DD98B82E771 /* HSPNumberDisplay.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +277,9 @@
 				0BB993481A03CCE100944AA9 /* ViewController.m in Sources */,
 				0BB993451A03CCE100944AA9 /* AppDelegate.m in Sources */,
 				0BB993421A03CCE100944AA9 /* main.m in Sources */,
-				E22BAC67EFF1DF96BA29870A /* HSPCalculatorStyleNumberInputTestViewController.m in Sources */,
+				E22BAC67EFF1DF96BA29870A /* HSPNumberPadInputViewController.m in Sources */,
 				E22BADC359C7A23DBBE61067 /* HSPNumberPad.m in Sources */,
-				E22BA721CD038A966B696F0D /* HSPCalculatorStyleNumberInputView.m in Sources */,
+				E22BA721CD038A966B696F0D /* HSPNumberPadInputView.m in Sources */,
 				E22BAD5929FEBE6550D25703 /* HSPNumberDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

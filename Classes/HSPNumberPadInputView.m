@@ -1,5 +1,5 @@
 //
-//  HSPCalculatorStyleNumberInputView.m
+//  HSPNumberPadInputView.m
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 01/11/2014.
@@ -8,18 +8,18 @@
 
 #import <ReactiveCocoa/RACEXTScope.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "HSPCalculatorStyleNumberInputView.h"
+#import "HSPNumberPadInputView.h"
 #import "HSPNumberDisplay.h"
 #import "HSPNumberPad.h"
 
-@interface HSPCalculatorStyleNumberInputView ()
+@interface HSPNumberPadInputView ()
 @property(nonatomic, strong) IBOutlet HSPNumberDisplay *numberDisplay;
 @property(nonatomic, strong) IBOutlet HSPNumberPad *numberPad;
 
 @property(nonatomic, copy) NSString *string;
 @end
 
-@implementation HSPCalculatorStyleNumberInputView
+@implementation HSPNumberPadInputView
 
 - (void)awakeFromNib {
     [super awakeFromNib];

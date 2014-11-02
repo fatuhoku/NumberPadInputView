@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="272" y="-19"/>
         </scene>
-        <!--Calculator Style Number Input Test View Controller-->
+        <!--Number Pad Input View Controller-->
         <scene sceneID="5Op-RI-cLX">
             <objects>
-                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" customClass="HSPCalculatorStyleNumberInputTestViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sb_calcStyleNumberInputTest" id="the-45-nYI" customClass="HSPNumberPadInputViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SDV-Ip-tsG"/>
                         <viewControllerLayoutGuide type="bottom" id="Dds-kW-P3M"/>
@@ -96,7 +96,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7e-fR-Z15" customClass="HSPCalculatorStyleNumberInputView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7e-fR-Z15" customClass="HSPNumberPadInputView">
                                 <rect key="frame" x="140" y="90" width="320" height="420"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -112,8 +112,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HSPCalculatorStyleInputView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKN-Y6-LAH">
-                                <rect key="frame" x="187" y="61" width="226" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HSPNumberPadInputView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKN-Y6-LAH">
+                                <rect key="frame" x="199" y="61" width="202" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -130,7 +130,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="calculatorStyleNumberInput" destination="t7e-fR-Z15" id="aM5-qB-mNn"/>
+                        <outlet property="numberPadInputView" destination="t7e-fR-Z15" id="aM5-qB-mNn"/>
                         <outlet property="unitField" destination="3Dy-PH-Saf" id="8aS-9M-zFe"/>
                     </connections>
                 </viewController>

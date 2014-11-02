@@ -1,5 +1,5 @@
 //
-//  HSPCalculatorStyleNumberInputView.h
+//  HSPNumberPadInputView.h
 //  CalculatorExperiments
 //
 //  Created by Hok Shun Poon on 01/11/2014.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HSPCompositeXibView.h"
 
-@interface HSPCalculatorStyleNumberInputView : HSPCompositeXibView
+@interface HSPNumberPadInputView : HSPCompositeXibView
 @property(nonatomic, strong) NSDecimalNumber *number;
 @property(nonatomic, copy) NSString *unit;
 @end
