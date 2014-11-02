@@ -12,7 +12,6 @@
 		0BB993481A03CCE100944AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB993471A03CCE100944AA9 /* ViewController.m */; };
 		0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB993491A03CCE100944AA9 /* Main.storyboard */; };
 		0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934C1A03CCE100944AA9 /* Images.xcassets */; };
-		0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */; };
 		E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BAF0680235EBC51721B7F /* HSPNumberPad.xib */; };
 		E22BA721CD038A966B696F0D /* HSPNumberPadInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAC478DDA1022997205DB /* HSPNumberPadInputView.m */; };
 		E22BA83616735DD98B82E771 /* HSPNumberDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22BA90DFB58650ECD4B4C7F /* HSPNumberDisplay.xib */; };
@@ -33,7 +32,6 @@
 		0BB993471A03CCE100944AA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0BB9934A1A03CCE100944AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BB9934C1A03CCE100944AA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0BB9934F1A03CCE100944AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4897F5D2DF9FD6917D6D5203 /* libPods-CalculatorExperimentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorExperimentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B1B9B1C8EA60D559142BDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D63F199E70E9145FAF11E520 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				0BB993461A03CCE100944AA9 /* ViewController.h */,
 				0BB993471A03CCE100944AA9 /* ViewController.m */,
 				0BB993491A03CCE100944AA9 /* Main.storyboard */,
-				0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */,
 				0BB9934C1A03CCE100944AA9 /* Images.xcassets */,
 				0BB9933F1A03CCE100944AA9 /* Supporting Files */,
 				E22BA0A9F9162069AD75CAB9 /* ViewControllers */,
@@ -226,7 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB9934B1A03CCE100944AA9 /* Main.storyboard in Resources */,
-				0BB993501A03CCE100944AA9 /* LaunchScreen.xib in Resources */,
 				0BB9934D1A03CCE100944AA9 /* Images.xcassets in Resources */,
 				E22BA312E5C79F9907A7CC3E /* HSPNumberPad.xib in Resources */,
 				E22BAFBF1B289783B178B921 /* HSPNumberPadInputView.xib in Resources */,
@@ -293,14 +289,6 @@
 				0BB9934A1A03CCE100944AA9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0BB9934E1A03CCE100944AA9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BB9934F1A03CCE100944AA9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
