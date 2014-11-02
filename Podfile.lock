@@ -1,5 +1,4 @@
 PODS:
-  - APNumberPad (1.1.2)
   - CompositeXibView (0.0.1):
     - Masonry
   - FlatButtons (1.0.0)
@@ -13,10 +12,8 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
-  - APNumberPad
   - CompositeXibView (from `DevPods/CompositeXibView`)
   - FlatButtons
-  - Masonry
   - ReactiveCocoa
 
 EXTERNAL SOURCES:
@@ -24,7 +21,6 @@ EXTERNAL SOURCES:
     :path: DevPods/CompositeXibView
 
 SPEC CHECKSUMS:
-  APNumberPad: 944238a3b5013d84df84d25d19b3e024e797daab
   CompositeXibView: 0f7e3b4f6d8d58771a737420538aadb3e8a19103
   FlatButtons: 8f39040e2c6c6870b28a0f09c41d78ba4abfbc62
   Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
